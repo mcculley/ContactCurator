@@ -20,7 +20,7 @@ jobs:
     - name: Build
       run: mvn -B package --file pom.xml
     - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: gh-pages
-          folder: target
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: target
